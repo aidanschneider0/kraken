@@ -1,0 +1,17 @@
+names:
+- Fish
+- Octopus
+- Person
+- Shark
+- Stingray
+- Whale
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: aquarium-detection-pjw4z
+  url: https://universe.roboflow.com/object-detection-bounding-box-gpn4e/aquarium-detection-pjw4z/dataset/1
+  version: 1
+  workspace: object-detection-bounding-box-gpn4e
+test: ../test/images
+train: Aquarium-Detection-1/train/images
+val: Aquarium-Detection-1/valid/images
